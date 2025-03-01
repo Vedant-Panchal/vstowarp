@@ -1,6 +1,7 @@
 # VsToWarp
 
-![VsToWarp Logo](https://via.placeholder.com/150.png?text=VsToWarp) <!-- Replace with your logo URL once uploaded -->
+<img src="./VsToWarp.png" width="200" height="250">
+
 
 Convert your favorite Visual Studio Code color themes into Warp terminal themes with ease!
 
@@ -10,10 +11,10 @@ Convert your favorite Visual Studio Code color themes into Warp terminal themes 
 
 ## Features
 
-- **Export Current Theme**: Convert the theme you’re currently using in VS Code to a Warp-compatible theme.
-- **Export All Themes**: Batch-convert all installed VS Code themes to Warp themes in one go.
-- **Select and Convert**: Pick any installed theme and export it to Warp with a simple selection.
-- **Preview Before Export**: Test how a theme looks in VS Code before converting it, with options to keep, export, or revert.
+- **Export Current Theme**: Export the theme you’re currently using in VS Code to a Warp-compatible theme.
+- **Export All Themes**: Batch-export all installed VS Code themes to Warp themes in one go.
+- **Select and Export**: Pick any installed theme and export it to Warp with a simple selection.
+- **Preview Before Export**: Test how a theme looks in VS Code before exporting it, with options to keep, export, or revert.
 
 
 ## Usage
@@ -53,7 +54,7 @@ Preview and export the "Dark+ (default dark)" theme:
 ## Contributing
 
 Found a bug? Want to add a feature? Contributions are welcome!
-- Fork the repo at [github.com/your-username/vstowarp](https://github.com/Vedant-Panchal/vstowarp).
+- Fork the repo at [github.com/Vedant-Panchal/vstowarp](https://github.com/Vedant-Panchal/vstowarp).
 - Submit a pull request with your changes.
 
 ---
