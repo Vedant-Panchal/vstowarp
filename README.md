@@ -65,8 +65,14 @@ Licensed under the [MIT License](LICENSE).
 
 ---
 
+## Credits
+
+- Thanks to [@nishantmehta07](https://github.com/nishantmehta07) for this cool logo ❤️.
+
+---
+
 ## Acknowledgments
-- Thanks to @nishantmehta07 for this cool logo ❤️.
+
 - Built with ❤️ using TypeScript, Webpack, and the VS Code API.
 - Thanks to the Warp team for inspiring terminal customization!
 ---
