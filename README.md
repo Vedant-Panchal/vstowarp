@@ -66,10 +66,9 @@ Licensed under the [MIT License](LICENSE).
 ---
 
 ## Acknowledgments
-
+- Thanks to @nishantmehta07 for this cool logo ❤️.
 - Built with ❤️ using TypeScript, Webpack, and the VS Code API.
 - Thanks to the Warp team for inspiring terminal customization!
-
 ---
 
 Questions? Issues? Reach out via the [GitHub Issues page](https://github.com/Vedant-Panchal/vstowarp/issues).
