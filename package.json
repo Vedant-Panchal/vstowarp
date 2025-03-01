@@ -2,11 +2,12 @@
   "name": "vstowarp",
   "displayName": "VsToWarp",
   "description": "Convert VS Code color themes to Warp terminal themes",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "VedantPanchal",
   "engines": {
     "vscode": "^1.97.0"
   },
+  "icon": "./VsToWarp128.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/Vedant-Panchal/vstowarp.git"
