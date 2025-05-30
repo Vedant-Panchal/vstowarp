@@ -67,7 +67,15 @@ export class ThemeConverter {
   static getWarpThemesDirectory(): string {
     try {
       const homeDir = os.homedir();
-      return path.join(homeDir, 'AppData', 'Roaming','warp','Warp','data','themes'); //AppData\Roaming\warp\Warp\data\themes
+      const platform = os.platform();
+      
+      if (platform == "win32"){
+        return path.join(homeDir, 'AppData', 'Roaming', 'warp', 'Warp', 'data', 'themes'); //AppData\Roaming\warp\Warp\data\themes
+      } else if (platform == "darwin"){
+        return path.join(homeDir, '.warp', 'themes'); //for macOS 
+      } else {
+        return path.join(homeDir, '.warp', 'themes'); //for other platforms except macOS and Windows 
+      }
     } catch (error) {
       throw new Error(`Failed to determine Warp themes directory: ${error instanceof Error ? error.message : String(error)}`);
     }
